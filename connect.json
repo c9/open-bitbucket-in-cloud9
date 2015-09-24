@@ -1,0 +1,30 @@
+{
+    "key": "open-in-cloud9",
+    "name": "Open in Cloud9",
+    "description": "Opens a BitBucket repository in a Cloud9 workspace.",
+    "vendor": {
+        "name": "Cloud9 Inc.",
+        "url": "https://c9.io"
+    },
+    "baseUrl": "https://preview.c9.io/fjakobs/open-in-bitbucket",
+    "modules": {
+        "oauthConsumer": {
+            "clientId": "tc5waacRg3Am6YzMQN"
+        },
+        "webItem": [
+            {
+                "url": "https://c9.io/auth/bitbucket?r=https%3A%2F%2Fc9.io%2Fopen%2F%3Fclone_url%3Dgit%2540bitbucket.org%253A{repo_path}.git",
+                "name": {
+                    "value": "Open in Cloud9"
+                },
+                "location": "org.bitbucket.repository.actions",
+                "key": "open-in-cloud9-action",
+                "icon": {
+                    "url": "https://open-in-bitbucket-fjakobs.c9.io/img/c9.png"
+                }
+            }
+        ]
+    },
+    "scopes": ["repository"],
+    "contexts": ["personal"]
+}
