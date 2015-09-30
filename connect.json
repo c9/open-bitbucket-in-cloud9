@@ -20,7 +20,7 @@
                 "location": "org.bitbucket.repository.actions",
                 "key": "open-in-cloud9-action",
                 "icon": {
-                    "url": "https://open-in-bitbucket-fjakobs.c9.io/img/c9.png"
+                    "url": "https://bitbucket.c9.io/c9.png"
                 }
             }
         ]
