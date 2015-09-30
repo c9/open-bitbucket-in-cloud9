@@ -6,7 +6,7 @@
         "name": "Cloud9 Inc.",
         "url": "https://c9.io"
     },
-    "baseUrl": "https://preview.c9.io/fjakobs/open-in-bitbucket",
+    "baseUrl": "http://bitbucket.c9.io",
     "modules": {
         "oauthConsumer": {
             "clientId": "tc5waacRg3Am6YzMQN"
