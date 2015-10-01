@@ -13,7 +13,7 @@
         },
         "webItem": [
             {
-                "url": "https://c9.io/auth/bitbucket?r=https%3A%2F%2Fc9.io%2Fopen%2F%3Fclone_url%3Dgit%2540bitbucket.org%253A{repo_path}.git",
+                "url": "https://c9.io/auth/bitbucket?r=https%3A%2F%2Fc9.io%2Fopen%2F%3Fclone_url%3D{repo_ssh_url}",
                 "name": {
                     "value": "Open in Cloud9"
                 },
